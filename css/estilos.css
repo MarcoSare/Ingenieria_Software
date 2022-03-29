@@ -6,11 +6,49 @@
     --color-title: #001A49;
 }
 
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+.btn-white{
+    
+    border-style: none;
+    margin: 0 auto;
+    background-color: #e5e5f7;
+
+
+}
+.btn{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.img_icono{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #212121;
 }
-
+.price__img{
+    margin-top: 20px;
+    width: 250px;
+    height: 250px;
+    border-radius: 25%;
+    object-fit: cover;
+    object-position: 50% 30%;
+}
 .container {
     width: 90%;
     max-width: 1200px;
@@ -201,6 +239,8 @@ body {
 
 .price{
     text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .price__table{
@@ -212,9 +252,30 @@ body {
     align-items: center;
 }
 
+.lista{
+    list-style: none;
+
+}
+
+.mision{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+}
+
+.mision1{
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+}
+
 .price__element{
     background-color: #e5e5f7;
     text-align: center;
+    align-items: center;
+    justify-content: center;
     border-radius: 10px;
     width: 330px;
     padding: 40px;
@@ -228,12 +289,12 @@ body {
 .price__element--best{
     width: 370px;
     padding: 60px 40px;
-    background-color: #FF7143;
-    --color-plan: rgb(255 255 255 / 75%);
+    background-color: #46469E;
     --color-price: #fff;
     --bg-cta: #9F3919;
     --color-cta: #FFF;
     --color-items: #fff;
+
 }
 
 
@@ -250,7 +311,10 @@ body {
 
 .price__items{
     margin-top: 35px;
-    display: grid;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
     gap: 1em;
     font-weight: 300;
     font-size: 1.2rem;
@@ -331,6 +395,14 @@ body {
     text-align: center;
 }
 
+.preguntas{
+    background-color: #e5e5f7;
+}
+
+
+.pa{
+    color: #02020A;
+}
 .questions__container{
     display: grid;
     gap: 2em;
@@ -341,7 +413,7 @@ body {
 .questions__padding{
     padding: 0;
     transition: padding .3s;
-    border: 1px solid #5454D4;
+    border: 1px solid #02020A;
     border-radius: 6px;
 }
 
